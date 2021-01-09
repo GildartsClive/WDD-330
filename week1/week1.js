@@ -2,6 +2,14 @@ const links = [
 	{
 		label: 'Notes',
 		url: 'notes.html'
+	},
+	{
+		label: 'Code',
+		url: 'code/'
+	},
+	{
+		label: 'Back to Menu',
+		url: './index.html'
 	}
 ];
 
