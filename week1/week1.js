@@ -9,7 +9,7 @@ const links = [
 	},
 	{
 		label: 'Back to Menu',
-		url: './index.html'
+		url: '../index.html'
 	}
 ];
 
