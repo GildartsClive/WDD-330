@@ -1,6 +1,6 @@
 const links = [
 	{
-		label: 'Week 01 - the begining - Jan 9th, 2021',
+		label: 'Week 01 - the begining! - Jan 9th, 2021',
 		url: 'week1/week1.html'
 	},
     {
