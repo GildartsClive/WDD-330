@@ -1,11 +1,7 @@
 const links = [
 	{
-		label: 'Notes',
-		url: 'notes.html'
-	},
-	{
 		label: 'Code',
-		url: 'code/'
+		url: 'week two group work/index.html'
 	},
 	{
 		label: 'Back to Menu',
