@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mic Muir Week 2 (Solo)Team activity</title>
+  </head>
+  <body>
+  
+      <h1>Part 1:</h1>
+      
+      <input id="textInput" type="text" />
+      <button id="inputCopy" onclick="copyText()">copy</button>
+      <div id="copiedText"></div>
+      
+      
+      <h1>Part 2:</h1>
+      
+      <input id="textInput2" type="text" />
+      <button id="findSumButton" onclick="findTheSum()">find the Sum</button>
+      <div id="showSumOutput"></div>
+      
+      
+      <h1>Part 3:</h1>
+      
+      <input id="text3Input1" type="number"/><input id="text3Input2" type="number" />
+      <button id="addButton" onclick="addNumbers()">add</button>
+      <div id="addedNumber"></div>
+      
+      <script>
+      
+        function copyText()
+          {
+              const text = document.getElementById('textInput').value;
+              const divDisplay = document.getElementById('copiedText');
+              divDisplay.innerHTML = 'What you entered was ' + text;
+          }
+      
+        function findTheSum()
+          {
+              const text2 = document.getElementById('textInput2').value;
+              const div = document.getElementById('showSumOutput');
+              const intTextConversion = parseInt(text2);
+              if (intTextConversion !== NaN)
+                  {
+                      div.innerHTML = 'the Sum is ' + sumOfAll(intTextConversion);
+                  }
+          }
+        function sumOfAll(number) 
+          {
+            let total = 0;
+            for (let i = 1; i <= number; i++) 
+                {
+                    total += i;
+                }
+                return total;
+          }
+          
+        function addNumbers()
+          {
+              const num1 = document.getElementById('text3Input1').value;
+              const num2 = document.getElementById('text3Input2').value;
+              const output = document.getElementById('addeddNumber');
+              const convertedNum1 = parseFloat(num1);
+              const convertedNum2 = parseFloat(num2);
+              if ((convertedNum1 !== NaN) && (convertedNum2 !== NaN))
+                  {
+                      const total = convertedNum1 + convertedNum2;
+                      output.innerHTML = 'the total ' + total;
+                  }
+          }
+          
+      </script>
+      
+  </body>
+  </html>

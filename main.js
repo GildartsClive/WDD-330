@@ -12,7 +12,7 @@ const links = [
 		url: 'week3/week3.html'
 	},
     {
-		label: 'Week 04 - new game',
+		label: 'Week 04 - The Tic Tac Toe - new game',
 		url: 'week4/week4.html'
 	},
     {
