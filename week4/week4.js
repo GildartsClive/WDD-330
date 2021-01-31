@@ -1,5 +1,9 @@
 const links = [
 	{
+		label: 'Notes',
+		url: 'notes/week4notes.png'
+	},
+	{
 		label: 'Code',
 		url: 'code/groupworkweek4.html'
 	},
