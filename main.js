@@ -12,7 +12,11 @@ const links = [
 		url: 'week3/week3.html'
 	},
     {
+<<<<<<< HEAD
 		label: 'Week 04 - The Tic Tac Toe - Jan 30th, 2021',
+=======
+		label: 'Week 04 - The Tic Tac Toe - new game',
+>>>>>>> 988c2a7d38480f0407439aa9c4ce6b10a0ce0495
 		url: 'week4/week4.html'
 	},
     {

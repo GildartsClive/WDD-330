@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -75,4 +76,83 @@
     </script>
 	</main>
     </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Week 4 Tic Tac Toe</title>
+	<link rel="stylesheet" media="screen" href="../week4.css">
+    <style>
+
+        .Board{
+			display: grid;
+            grid-template-columns: 125px 125px 125px;
+            grid-template-rows: 125px 125px 125px;
+			justify-content: center;
+        }
+
+        .Board > div {
+            font-size: 4.5em;
+            border: 2px dotted;
+			text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <main> 
+	<h2> Tic Tac Toe, Week 4 (solo)group work</h2>
+	
+	<button onclick="history.back()">Back</button>
+	<button id="reset">Reset Board</button>
+	
+    <div class="Board">
+
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+    </div>
+
+    
+    
+    <script>
+
+        const gameBoard = document.querySelector('.Board');
+		const resetButton = document.getElementById('reset');
+        const p1 = 'X';
+        const p2 = 'O';
+        let Turn = p1;
+        function takeTurn(e) {
+			console.log(e.target);
+			e.target.innerHTML = Turn;
+			if (Turn === p1) Turn = p2;
+			else Turn = p1;
+      }
+
+        function resetBoard() {
+        const gameBoard = document.querySelector('.Board');
+        for (let i = 0; i < gameBoard.children.length; i++) {
+          gameBoard.children[i].innerText = '';
+        }
+        const children = Array.from(gameBoard.children);
+        const empty = children.filter(function(child) {
+          return child.innerText == 'X' || child.innerText == 'O';
+        });
+        console.log(empty);
+      }
+
+        gameBoard.addEventListener('click', takeTurn); 
+        reset.addEventListener('click', resetBoard);
+
+    </script>
+	</main>
+    </body>
+>>>>>>> 988c2a7d38480f0407439aa9c4ce6b10a0ce0495
 </html>
