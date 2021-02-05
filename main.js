@@ -12,11 +12,11 @@ const links = [
 		url: 'week3/week3.html'
 	},
     {
-		label: 'Week 04 - The Tic Tac Toe - new game',
+		label: 'Week 04 - The Tic Tac Toe - Jan 30th, 2021',
 		url: 'week4/week4.html'
 	},
     {
-		label: 'Week 05 - new game',
+		label: 'Week 05 - Hikeing app - Feb 6th, 2021',
 		url: 'week5/week5.html'
 	},
     {

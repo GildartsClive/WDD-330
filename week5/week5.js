@@ -1,11 +1,11 @@
 const links = [
 	{
 		label: 'Notes',
-		url: 'notes/week4notes.png'
+		url: 'notes/week5notes.png'
 	},
 	{
-		label: 'Code',
-		url: 'code/groupworkweek4.html'
+		label: 'Team Activity',
+		url: 'Team Activity/'
 	},
 	{
 		label: 'Back to Menu',
