@@ -20,7 +20,7 @@ const links = [
 		url: 'week5/week5.html'
 	},
     {
-		label: 'Week 06 - new game',
+		label: 'Week 06 - todo app - Feb 13th, 2021',
 		url: 'week6/week6.html'
 	},
     {
